@@ -1,0 +1,14 @@
+header {
+    .nav_wrapper {
+        &::after {
+            content: "";
+            display: block;
+            width: calc(100vw - 40px);
+            height: 1px;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+        }
+    }
+}
